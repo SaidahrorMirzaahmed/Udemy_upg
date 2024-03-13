@@ -11,5 +11,5 @@ public class Deposit:Auditable
 {
     public decimal Amount { get; set; }
     public int CardId { get; set; }
-    public User User { get; set; }
+    public Card Card { get; set; }
 }
