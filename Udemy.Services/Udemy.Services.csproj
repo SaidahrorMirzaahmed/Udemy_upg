@@ -8,7 +8,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Udemy.Domain\Udemy.Domain.csproj" />
-	  <ProjectReference Include="..\Udemy.Domain\Udemy.DataAccess.csproj" />
+    <ProjectReference Include="..\Udemy.DataAccess\Udemy.DataAccess.csproj" />
+	
   </ItemGroup>
 
 </Project>
