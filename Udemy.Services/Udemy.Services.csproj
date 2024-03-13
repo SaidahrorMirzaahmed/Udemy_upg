@@ -6,4 +6,9 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Udemy.Domain\Udemy.Domain.csproj" />
+	  <ProjectReference Include="..\Udemy.Domain\Udemy.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
